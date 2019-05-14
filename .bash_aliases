@@ -1,0 +1,6 @@
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+alias gps='git push $*'
+alias gcm='git commit -am "Minor changes added."'
+alias gcam='git commit -am $*'
