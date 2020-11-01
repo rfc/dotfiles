@@ -1,0 +1,8 @@
+set linenumbers
+set smooth
+set autoindent
+set morespace
+set nowrap
+set tabsize 4
+set titlecolor cyan,black
+set boldtext
