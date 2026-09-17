@@ -30,8 +30,11 @@ PROMPT='%F{cyan}%n@%m %F{yellow}%~ %F{red}$(parse_git_branch)%f%F{magenta}❯%f 
 #PROMPT='%F{cyan}%n@%m %F{yellow}%~ %F{red}${vcs_info_msg_0_}%f%F{magenta}❯%f '
 
 alias ll="ls -la"
-alias gpl='(){git pull $* ;}'
+
+alias gpl='(){ git pull $* ;}'
 alias gps='(){ git push $* ;}'
+alias gcam='(){ git commit -am $* ;}'
+
 alias gadog="git adog"
 alias glg="git lg"
 alias gst="git status"
