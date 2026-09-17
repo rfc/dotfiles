@@ -30,9 +30,13 @@ PROMPT='%F{cyan}%n@%m %F{yellow}%~ %F{red}$(parse_git_branch)%f%F{magenta}❯%f 
 #PROMPT='%F{cyan}%n@%m %F{yellow}%~ %F{red}${vcs_info_msg_0_}%f%F{magenta}❯%f '
 
 alias ll="ls -la"
-alias gpt="git pull"
+alias gpl="git pull"
 alias gps="git push"
 alias gadog="git adog"
 alias glg="git lg"
+
+# alias.lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+# alias.adog=log --all --decorate --oneline --graph
+
 
 export PATH="/opt/homebrew/opt/krb5/bin:/opt/homebrew/opt/openldap/bin:~/workspace/scripts:$PATH"
