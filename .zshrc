@@ -34,7 +34,7 @@ alias la='ls -A'
 
 gpl() { git pull "$@"; }
 gps() { git push "$@"; }
-gcam() { git commit -am "$@"; }
+gcam() { git commit -am "$*"; }
 
 alias gadog="git adog"
 alias glg="git lg"
@@ -44,4 +44,12 @@ alias gst="git status"
 # alias.adog=log --all --decorate --oneline --graph
 
 
-export PATH="/opt/homebrew/opt/krb5/bin:/opt/homebrew/opt/openldap/bin:$HOME/workspace/scripts:$PATH"
+#export PATH="/opt/homebrew/opt/krb5/bin:/opt/homebrew/opt/openldap/bin:$HOME/workspace/scripts:$PATH"
+typeset -U path PATH
+
+path=(
+  /opt/homebrew/opt/krb5/bin
+  /opt/homebrew/opt/openldap/bin
+  "$HOME/workspace/scripts"
+  $path
+)
