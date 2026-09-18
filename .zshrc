@@ -43,13 +43,3 @@ alias gst="git status"
 # alias.lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 # alias.adog=log --all --decorate --oneline --graph
 
-
-#export PATH="/opt/homebrew/opt/krb5/bin:/opt/homebrew/opt/openldap/bin:$HOME/workspace/scripts:$PATH"
-typeset -U path PATH
-
-path=(
-  /opt/homebrew/opt/krb5/bin
-  /opt/homebrew/opt/openldap/bin
-  "$HOME/workspace/scripts"
-  $path
-)
