@@ -40,6 +40,6 @@ alias gadog="git adog"
 alias glg="git lg"
 alias gst="git status"
 
-# alias.lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-# alias.adog=log --all --decorate --oneline --graph
+# alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+# alias.adog "log --all --decorate --oneline --graph"
 
